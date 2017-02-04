@@ -1,3 +1,7 @@
+addpath(genpath('functions'));
+addpath(genpath('../Images'));
+
+
 mug1 = readImg('mugshot1.jpg');
 img_3Mx3N = scale_MN(mug1, .3, .3);
 img_9Mx4N = scale_MN(mug1, .9, .4);
